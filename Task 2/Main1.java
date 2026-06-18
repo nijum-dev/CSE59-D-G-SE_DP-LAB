@@ -1,5 +1,5 @@
 
-class Main1 {
+class ContestStats {
     int[] scores = {85, 90, 95};
 
     void printFirstScore() {
@@ -7,9 +7,9 @@ class Main1 {
     }
 }
 
-public class ContestStats {
+public class Main1 {
     public static void main(String[] args) {
-        Main1 contest = new Main1();
+          ContestStats contest= new ContestStats();
         contest.printFirstScore();
     }
 }
